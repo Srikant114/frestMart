@@ -4,14 +4,16 @@ import { IoCartOutline } from "react-icons/io5";
 import Dropdown from "react-bootstrap/Dropdown";
 
 import "./Navbar.css";
-import logo from "../Assets/freshmartLogo.png";
+import { logo } from "../../Assets";
 
 const Navbar = () => {
   const [cartQty, setCartQty] = useState(0);
   return (
     <nav className="navbar">
       <div className="navTop">
-        <img src={logo} alt="freshMart" className="logo" />
+        <a href="/">
+          <img src={logo} alt="freshMart" className="logo" />
+        </a>
         <div className="searchBar">
           <input
             type="text"
@@ -25,9 +27,9 @@ const Navbar = () => {
         <div className="navTopRight">
           <div className="cart">
             <span className="qty">{cartQty}</span>
-            <IoCartOutline  className="ico"/>
+            <IoCartOutline className="ico" />
           </div>
-          <CiUser className="ico"/>
+          <CiUser className="ico" />
         </div>
       </div>
       <div className="navBottom">
