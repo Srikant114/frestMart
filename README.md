@@ -5,6 +5,10 @@ Welcome to FreshMart - your neighborhood destination for fresh and flavorful gro
 ## About Us
 At FreshMart, we pride ourselves on providing the finest selection of farm-fresh produce, locally sourced meats, and artisanal goods. Our goal is to offer high-quality ingredients to elevate your culinary experience.
 
+## Technology Used
+- React
+- React Icon
+
 ## Features
 - Wide variety of fresh produce
 - Locally sourced meats and dairy products
