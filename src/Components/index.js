@@ -4,3 +4,4 @@ import Navbar from "./Navbar/Navbar";
 
 
 export {Navbar, BannerSlider, HomeCategories}
+export * from './Product/index'
