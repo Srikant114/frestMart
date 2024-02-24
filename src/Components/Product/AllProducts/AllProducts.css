@@ -1,0 +1,15 @@
+.allProducts{
+    display: flex;
+    width: 78%;
+    flex-direction: column;
+}
+
+.allProducts h1{
+    font-size: 30px;
+    text-align: center;
+}
+.allProducts .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
